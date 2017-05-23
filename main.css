@@ -1,0 +1,711 @@
+
+
+
+body{
+	margin:30px 90px;
+		background-color: #e5e5e5;
+			background-size: 100% 100%;
+    background-repeat: no-repeat;
+min-height: 700px;
+
+}
+
+.title_section{
+font-family: cambria;
+font-size: 30px;
+}
+
+
+.menu{
+	display: none;
+}
+
+.header_panel{
+	/*border: 2px solid black;*/
+	margin-bottom: 20px;
+	position: fixed;
+	width:90%;
+padding-top: 15px;
+margin-top:-30px;
+background-color: #e5e5e5;
+z-index: 10;
+
+}
+
+.logo{
+	/*border: 2px solid blue;*/
+	width:15%;
+	float:left;
+}
+
+.logo img{
+	width:100%;
+	height:50px;
+}
+
+.social_media{
+	/*border: 2px solid green;*/
+	width:15%;
+	float:left;
+	font-size: 30px;
+	margin-top: 15px;
+	 word-spacing: 10px;
+	 text-align: right;
+	 
+}
+
+.social_media a{
+	color: black;
+}
+
+
+
+.nav_bar{
+	/*border: 2px solid red;*/
+	width:60%;
+	float:left;
+
+}
+
+.nav_bar nav ul{
+	list-style:none;
+	text-align: center;
+}
+
+.nav_bar nav ul li{
+	display: inline;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-right: 2px solid black;
+	padding-right: 7px;
+
+}
+
+.nav_bar nav ul a{
+	font-size: 20px;
+	color:black;
+	text-decoration: none;
+}
+
+
+
+.nav_bar nav ul a:hover{
+	color: green;
+}
+
+.main_content{
+/*border: 2px solid red;*/
+	overflow: auto;
+	width: 100%;
+	
+}
+
+.profile_pic{
+/*border: 2px solid blue;*/
+float: left;
+width: 30%;
+}
+
+.profile_pic img{
+width:300px;
+height:300px;
+
+}
+
+.name_title{
+	/*border: 2px solid green;*/
+	text-align: center;
+	font-size: 20px;
+	font-family: Cambria;
+	color:black;
+	/*width:40px;*/
+	/*float: left;*/
+	/*float: left;*/
+	/*padding-left: 300px;*/
+}
+
+.introduction{
+	/*border: 2px solid blue;*/
+	text-align: justify;
+float: left;
+width: 60%;
+margin-left: 50px;
+margin-top: 20px;
+color:black;
+font-size: 20px;
+
+}
+
+.experience_image{
+
+float: left;
+}
+
+.experience_image img{
+	/*border: 2px solid black;*/
+	width: 300px;
+	height: 300px;
+}
+
+
+.experience_description{
+	/*border: 2px solid red;*/
+
+float: left;
+/*padding-top: 100px;*/
+font-size: 20px;
+color:black;
+padding: 20px;
+text-align: justify;
+
+}
+
+.experience_section{
+
+	/*border: 2px solid blue;*/
+	overflow: auto;
+padding: 10px 50px;
+
+}
+
+.experience_section_two{
+	
+	/*border: 2px solid blue;*/
+	overflow: auto;
+padding-top: 50px;
+padding: 10px 50px;
+/*float: right;*/
+}
+
+.company_name{
+	/*border: 2px solid green 	;*/
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	color:black;
+	
+}
+
+.description_section{
+	/*border: 2px solid yellow;*/
+	float: left;
+	overflow: auto;
+	width: 60%;
+}
+
+.education_section{
+	padding:10px 20px;
+	margin: 10px 20px;
+	overflow:auto;
+	/*border: 2px solid yellow;*/
+}
+
+.education_image{
+	float: left;
+	width:30%;
+	margin-right: 20px;
+	/*border: 2px solid green;*/
+}
+
+.education_image img{
+	width: 100%;
+	height:300px;
+}
+
+.title_description{
+float: left;
+	width:65%;
+}
+
+.education_title{
+	margin-bottom: 10px;
+	font-size: 30px;
+	color:black;
+}
+
+.education_description{
+font-size: 20px;
+	color:black;
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.quality_section{
+/*width: 80%;*/
+overflow: auto;
+/*border: 2px solid yellow;*/
+padding: 10px;
+text-align: center;
+}
+
+.quality_introduction{
+	/*border: 2px solid green;*/
+	padding-left: 10px;
+	text-align: justify;
+	color:black;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.quality_image{
+	width: 40%;
+
+	display: inline-block;
+	/*float: left;*/
+}
+
+.quality_image img{
+	background: white;
+}
+
+.skill_section{
+/*border: 2px solid blue;*/
+font-size: 30px;
+}
+
+
+
+.skill_title{
+	font-size: 50px;
+/*border: 2px solid yellow;*/
+margin:10px;
+}
+
+.skill_name{
+	margin:10px;
+	font-family: cambria;
+	width: 200px;
+	font-size: 40px;
+	background: white;
+	display: inline-block;
+	/*border: 2px solid green;*/
+}
+
+.skill_image{
+
+	width: 200px;
+	height:48px;
+	background: white;
+	margin:10px;
+	display: inline-block;
+}
+
+.skill_image img{
+	width: 100%;
+	height:48px;
+	
+}
+
+.contact{
+	
+	text-align: center;
+float: left;
+width: 100%;
+margin:auto;
+color:black;
+font-size: 20px;
+overflow: auto;
+}
+
+
+.project_link{
+	margin-top:20px;
+}
+
+.project_link a{
+color:black;
+}
+
+.active{
+	border-radius:5px;
+	padding-left:7px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background-color: black;
+	color:white !important;
+	
+}
+
+.active a{
+	color:white !important;
+}
+
+
+@media screen and (max-width: 1000px){
+
+body{
+	margin:3%;
+		background-color: #e5e5e5;
+			background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+	}  /*This is the section for responsive design for 900px*/
+
+
+
+@media screen and (max-width: 900px){  /*This is the section for responsive design for 900px*/
+
+body{
+	margin:3%;
+		background-color: #e5e5e5;
+			background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.introduction{
+	/*border: 2px solid blue;*/
+	text-align: justify;
+float: left;
+width: 50%;
+margin-left: 50px;
+margin-top: 20px;
+color:black;
+font-size: 20px;
+
+}
+
+.profile_pic{
+/*border: 2px solid blue;*/
+float: left;
+width: 35%;
+}
+
+.profile_pic img{
+width:100%;
+}
+
+
+.quality_image{
+	width: 40%;
+margin: 3%;
+	display: inline-block;
+	/*float: left;*/
+}
+
+.quality_image img{
+	background: white;
+}
+
+
+
+.experience_image{
+
+float: left;
+}
+
+.experience_image img{
+	/*border: 2px solid black;*/
+	width: 300px;
+	height: 300px;
+}
+
+
+.experience_description{
+	/*border: 2px solid red;*/
+
+float: left;
+/*padding-top: 100px;*/
+font-size: 20px;
+color:black;
+padding: 20px;
+text-align: justify;
+
+}
+
+.experience_section{
+
+	/*border: 2px solid blue;*/
+	overflow: auto;
+padding: 10px 50px;
+
+}
+
+.experience_section_two{
+	
+	/*border: 2px solid blue;*/
+	overflow: auto;
+padding-top: 50px;
+padding: 10px 50px;
+/*float: right;*/
+}
+
+.company_name{
+	/*border: 2px solid green 	;*/
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	color:black;
+	
+}
+
+
+.description_section{
+	/*border: 2px solid yellow;*/
+	float: left;
+	overflow: auto;
+	width: 50%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){  /*This is the section for responsive design*/
+
+
+body{
+	margin:5%;
+		background-color: #e5e5e5;
+			
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+
+.header_panel{
+	position:static;
+}
+
+
+.profile_pic{
+	width:100%;
+}
+
+.profile_pic img{
+	width: 100%;
+	height:200px;
+}
+
+
+
+
+.logo{
+	/*border: 2px solid blue;*/
+	width:100%;
+	float: none;
+	text-align: center;
+	/*float:left;*/
+
+}
+
+.logo img{
+	width:70%;
+	height:50px;
+}
+
+.social_media{
+	/*border: 2px solid green;*/
+	width:100%;
+	/*	float:none;*/
+	font-size: 30px;
+	margin-top: 15px;
+	word-spacing: 10px;
+	text-align: center;
+	text-align: right;
+	 
+}
+
+
+
+
+
+.introduction{
+	/*border: 2px solid blue;*/
+	text-align: justify;
+/*float: left;*/
+width: 100%;
+margin-left: 0px;
+margin-top: 20px;
+color:black;
+font-size: 20px;
+
+}
+
+
+
+
+
+.quality_image{
+	width: 100%;
+	margin-bottom: 10px;
+
+	display: inline-block;
+	/*float: left;*/
+}
+
+
+
+
+
+
+
+
+
+.experience_image{
+width: 100%;
+float: left;
+}
+
+.experience_image img{
+	/*border: 2px solid black;*/
+	width: 100%;
+	height: 300px;
+}
+
+
+.experience_description{
+	/*border: 2px solid red;*/
+
+float: left;
+/*padding-top: 100px;*/
+font-size: 20px;
+color:black;
+padding: 0px;
+text-align: justify;
+
+}
+
+.experience_section{
+
+	/*border: 2px solid blue;*/
+	overflow: auto;
+padding: 0px 0px;
+
+}
+
+.experience_section_two{
+	
+	/*border: 2px solid blue;*/
+	overflow: auto;
+
+padding: 0px 0px;
+/*float: right;*/
+}
+
+.company_name{
+	/*border: 2px solid green 	;*/
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	color:black;
+	
+}
+
+.title_description{
+	width: 100%;
+}
+
+.education_image{
+	width: 100%;
+}
+
+.description_section{
+	/*border: 2px solid yellow;*/
+	float: left;
+	overflow: auto;
+	width: 100%;
+}
+
+
+
+.education_section{
+	padding:0px 00px;
+	margin: 0px 0px;
+	/*border: 2px solid yellow;*/
+}
+
+
+
+.education_image img{
+	width: 100%;
+	height:200px;
+}
+
+
+.nav_bar{
+	/*border: 2px solid red;*/
+	width:100%;
+	
+	
+}
+
+.nav_bar nav {
+	text-align: center;
+}
+
+
+.nav_bar nav ul li{
+	
+	margin-right: 5px;
+	margin-left: 5px;
+	border-right: none;
+	padding-right: 7px;
+display: none;
+background-color: #333333;
+border-bottom:1px solid #e5e5e5;
+border-radius: 5px;
+}
+
+.menu{
+	text-align: center;
+	display: block;
+	font-size: 30px;
+font-family:cambria;
+
+}
+
+.menu:hover{
+	cursor: pointer;
+}
+
+.nav_bar nav ul a{
+	font-size: 20px;
+	color:white;
+	text-decoration: none;
+}
+
+.nav_bar nav ul{
+	list-style:none;
+	text-align: right;
+}
+
+
+.social_media{
+	text-align: center;
+}
+
+}
+
+
+/*@media screen and (max-width: 750px){  /*This is the section for responsive design*/
+/*
+body{
+	margin:10%;
+		background-image: url("images/background_yellow.png");
+			background-size: 100% 100%;
+    background-repeat: no-repeat;
+}*/
+
+/*}*/
+
+
+
+
+
